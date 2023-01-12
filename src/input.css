@@ -1,0 +1,62 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 700,
+    'GRAD' 200,
+    'opsz' 48
+}
+
+.app-container {
+    background-color: #125045;
+    width: 600px;
+    height: 350px;
+    box-shadow: 16px 16px 43px #9e9d9d;
+}
+
+.control-center {
+    background: linear-gradient(110deg, #10483e6b, #13564a);
+    box-shadow:  8px 8px 10px #0e3e35,
+    -1px -1px 10px #176658a2;
+}
+
+.neumo {
+    box-shadow:  4px 4px 15px #0e3e35,
+    -4px -4px 10px #176658a2;
+    
+}
+
+.timer {
+    font-family: 'Roboto';
+    text-shadow: 5px 5px #08372fa0;
+    background: linear-gradient(145deg, #08372f, #13564a);
+   
+    box-shadow: inset 10px 10px 25px #093931,
+    inset -10px -10px 25px #125f51a4;
+}
+
+.round {
+    box-shadow:  13px 13px 40px #0d3a32,
+    -13px -13px 40px #176658;
+}
+
+.neumo:focus {
+    box-shadow: none;
+}
+
+.round:focus {
+    box-shadow: none;
+}
+
+.play-button:focus {
+    box-shadow: none;
+}
+
+.play-button {
+    box-shadow:  4px 4px 15px #0e3e35,
+    -4px -4px 10px #176658a2;
+}
