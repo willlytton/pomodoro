@@ -12,12 +12,12 @@
 <body>
     <div class="h-screen border-solid flex justify-center items-center bg-[#EFEEEE]">
         <div class=" app-container p-6 grid grid-cols-8 grid-rows-4 rounded-xl">
-            <div class="control-center grid justify-items-center items-center order-last grid-cols-1 col-start-7 col-end-9 row-start-1 row-end-5 ml-10 rounded-lg">
+            <div class="control-center-root grid justify-items-center items-center order-last grid-cols-1 col-start-7 col-end-9 row-start-1 row-end-5 ml-10 rounded-lg">
                 <button type="button" class="neumo bg-[#125045] rounded-lg text-stone-900 w-1/2 h-2/4">
                     <span class="material-symbols-outlined">timer</span>
                 </button>
-                <button type="button" class="neumo bg-[#125045] rounded-lg text-stone-900 w-1/2 h-2/4">SB</button>
-                <button type="button" class="neumo bg-[#125045] rounded-lg text-stone-900 w-1/2 h-2/4">LB</button>
+                <button id="short-break" class="neumo bg-[#125045] rounded-lg text-stone-900 w-1/2 h-2/4">SB</button>
+                <button type="long-break" class="neumo bg-[#125045] rounded-lg text-stone-900 w-1/2 h-2/4">LB</button>
             </div>
             <div class="timer flex justify-center items-center order-2 col-start-3 col-end-7 row-start-2 row-end-4 rounded-lg text-stone-900 text-center text-7xl">
                 <span class="timer-minutes">00</span>
@@ -28,8 +28,6 @@
             <button class="play-button rounded-lg grid justify-center content-center row-start-4 col-start-4 mt-5 p">
                 <span class="material-symbols-outlined">play_arrow</span>
             </button>
-            
-            
         </div>
     </div>
     
